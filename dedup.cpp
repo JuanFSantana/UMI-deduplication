@@ -139,7 +139,8 @@ void process_zip_file(std::map<std::string, std::string>& r2_paths, std::filesys
             // Clear the vector for the next read
             read_info.clear();
         }
-
+        else {
+            read_info.clear();
     }
 
     unzipped_file.close();
